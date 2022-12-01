@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 const NavbarComponent = () => {
   return (
     <div>
-      <nav class="p-3 border-gray-200  dark:border-gray-700 ">
+      <nav class="p-3 border-gray-200  dark:border-gray-700  bg-fixed">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
           <a href="#" class="flex items-center">
             <img

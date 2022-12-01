@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="no-underline text-white">
-      <footer class="p-4     shadow md:px-6 md:py-8   ">
+    <div className="no-underline text-white  ">
+      <footer class="p-4     shadow md:px-6 md:py-8 rounded   bg-black/10">
         <div class="sm:flex sm:items-center sm:justify-between m-3">
           <a
             href="#"
@@ -42,6 +42,7 @@ const Footer = () => {
           </ul>
         </div>
         {/* <hr class="my-6 border-gray-200 sm:mx-auto dark:border-white lg:my-8" /> */}
+        <div className=" "> 
         <span class="block text-sm text-white sm:text-center dark:text-white ">
           © 2022{" "}
           <a class="text-white">
@@ -49,6 +50,9 @@ const Footer = () => {
           </a>
           . All Rights Reserved.
         </span>
+          
+        </div>
+        
       </footer>
     </div>
   );
